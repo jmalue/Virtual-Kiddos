@@ -1,0 +1,15 @@
+Create a class (Kid) that represents any of your children. 
+The Kid class should have a constructor that allows for a kid's name, and a description. 
+It should also allow for the following actions: Play and Eat.
+"play" and "eat" should be methods that affect 2 other fields (variables) in the Kid class.
+Those 2 variables are satiation (reverse of hunger) and happiness.
+Your app class should ask the user for
+The kid's name
+The kid's description
+Then, you should ask the user if they want to play with one of the children. 
+Each time they play, you should call the Play method for the kid (in the kid class). 
+That play method should increase the happiness field for the kid.
+On top of that, your app should ask if the user wants to feed the kid. 
+When yes, it should call the eat method in the Kid class. 
+The eat method should increase the kid's satiation by 1.
+Finally, you should print out the kid's satiation and happiness levels.
