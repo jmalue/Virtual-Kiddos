@@ -13,3 +13,23 @@ On top of that, your app should ask if the user wants to feed the kid.
 When yes, it should call the eat method in the Kid class. 
 The eat method should increase the kid's satiation by 1.
 Finally, you should print out the kid's satiation and happiness levels.
+
+
+
+
+
+
+
+
+
+
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				

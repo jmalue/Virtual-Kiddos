@@ -5,31 +5,54 @@ public class VirtualKid {
 
 	}
 
-	private String name;
-	private String description;
-	private int age;
-	private int hunger = 6;
-	private int boredom = 5;
+	private String getName;
+	private String getDescription;
+	private String getAge;
+	int getHunger = ((int) (Math.random() * 10 + 1));
+	int getBoredom = ((int) (Math.random() * 10 + 1));
+	int tick;
+	int playEverett;
+	int feedEverett;
 
-	public String name() {
-		return "";
+	private String getName() {
+		return this.getName = "Everett";
 
 	}
 
-	public String description() {
-		return "";
+	public String getDescription() {
+		return this.getDescription = "I am a rambunctious, free spirited child that's as tall as a 7 year old.";
 	}
 
-	public int age() {
-		return age;
+	public String getAge() {
+		return this.getAge = "five years old. ";
 	}
 
-	public void feed() {
-		this.hunger ++;
+	public int getHunger() {
+		return this.getHunger;
 	}
 
-	public void boredom() {
-		this.boredom ++;
+	public int getBoredom() {
+		return this.getBoredom;
 	}
 
+	public VirtualKid(int hunger, int boredom) {
+		this.getHunger = getHunger;
+		this.getBoredom = getBoredom;
+	}
+
+	public void feedEverett() {
+		this.getBoredom = getBoredom--;
+		this.getHunger = getHunger++;
+	}
+
+	public void playEverett() {
+		this.getBoredom = getBoredom++;
+		this.getHunger = getHunger--;
+	}
+
+	public void tick() {
+		getHunger++;
+		getBoredom--;
+
+	}
 }
