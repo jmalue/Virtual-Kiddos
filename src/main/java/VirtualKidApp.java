@@ -8,7 +8,7 @@ public class VirtualKidApp {
 
 		VirtualKid everett = new VirtualKid((int) (Math.random() * 10 + 1), (int) (Math.random() * 10 - 1));
 
-		while (true) {
+		{
 			System.out.println("Hello, my name is Everett! \nI am " + everett.getAge() + everett.getDescription()
 					+ "\nMy hunger is at a " + everett.getHunger + "\nMy level of boredom is at a " + everett.getBoredom
 					+ "\nWhat would you like to do first?");
@@ -24,8 +24,8 @@ public class VirtualKidApp {
 				System.out.println("\nHunger = " + everett.playEverett + "\nBoredom = " + everett.playEverett);
 
 			}
-			System.out.println("What do you want to do next?" + "\n1.Feed" + "\n2. Play");
-			String optionEntered2 = input.nextLine();
+//			System.out.println("What do you want to do next?" + "\n1.Feed" + "\n2. Play");
+//			String optionEntered2 = input.nextLine();
 
 			{
 			}
